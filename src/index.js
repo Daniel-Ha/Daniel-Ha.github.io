@@ -4,18 +4,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <div className="bg-white dark:bg-slate-500 min-h-screen">
           <Navbar/>
           <App/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>
 );
 
