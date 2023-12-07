@@ -1,0 +1,5 @@
+.custom-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px; /* Adjust the thickness */
+    text-underline-offset: 2px; /* Adjust the distance from the text */
+}
