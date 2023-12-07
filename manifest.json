@@ -1,0 +1,25 @@
+{
+  "short_name": "Daniel Ha",
+  "name": "Daniel Ha",
+  "icons": [
+    {
+      "src": "Dan.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Dan192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Dan512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#19252e"
+}
