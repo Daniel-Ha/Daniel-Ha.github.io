@@ -1,6 +1,11 @@
+//ABOUT PAGE
+import Copyright from "../components/Copyright";
+
 export default function About() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen">
+            
+            {/*Picture of me!*/}
             <div className="flex justify-center w-full">
                 <img 
                     src={process.env.PUBLIC_URL + '/Pic_of_me.jpeg'} 
@@ -8,6 +13,8 @@ export default function About() {
                     className="pb-10 pt-5 w-11/12 h-auto sm:w-3/5 md:w-1/2 lg:1/3 "
                 />
             </div>
+
+            {/*Text about me*/}
             <div className="px-4 w-full sm:w-5/6 md:w-4/5 lg:w-3/4">
                 <h1 className="text-black dark:text-white text-2xl mb-4">
                     Hello! My name is Daniel Ha.
@@ -28,9 +35,9 @@ export default function About() {
                     If you would like to contact me, I can be reached by email at dannyha@outlook DOT com!
                 </p>
             </div>
-            <footer className="text-black dark:text-white text-xs flex justify-center">
-                © 2023 Daniel Ha created using React.js and Tailwind.css
-            </footer>
+
+            {/*Copyright info*/}
+            <Copyright/>
         </div>
     );
   }
