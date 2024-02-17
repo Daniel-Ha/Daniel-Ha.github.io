@@ -174,7 +174,7 @@ export default function Projecs() {
       </div>
 
       {/*Copyright information*/}
-      <footer className="mt-32 text-black dark:text-white text-xs flex justify-center">
+      <footer className="mt-12 text-black dark:text-white text-xs flex justify-center">
             © 2023 Daniel Ha created using React.js and Tailwind.css
       </footer>
     </div>
