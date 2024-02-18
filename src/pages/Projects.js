@@ -120,9 +120,9 @@ export default function Projecs() {
           style={{ marginLeft: margin, marginRight: margin }}
         >
           <div className="overflow-y-scroll flex flex-col h-full px-10 py-8">
-            <h1 className="mb-4 font-bold text-lg">Doon:</h1>
+            <h1 className="mb-4 font-bold text-lg">Doon Chatbot:</h1>
             <p className="mb-3">
-              Doon is a chatbot accessed through Telegram that allows its users
+              Doon Chatbot is accessed through Telegram and allows its users
               to create sophisticated notifications which trigger based on
               Blockchain activity. It was built in{" "}
               <span className="font-bold">Python</span> and utilitzed a{" "}
@@ -141,7 +141,7 @@ export default function Projecs() {
                 Moon Wallet
               </a>
               , we also worked with Moon's developing codebase to build a UI for
-              Moon Wallet in the form of a DApp.
+              Moon Wallet in the form of a DApp (decentralized application).
             </p>
             <p>
               <a
