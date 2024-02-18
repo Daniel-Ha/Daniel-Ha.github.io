@@ -1,7 +1,6 @@
 //PROJECT PAGE
 
 import React, { useEffect, useState } from "react";
-import Copyright from "../components/Copyright";
 
 export default function Projecs() {
   const [margin, setMargin] = useState(0);
@@ -155,8 +154,7 @@ export default function Projecs() {
                 Check out a video demo here!
               </a>
             </p>
-            <br/>
-            <p>
+            <p className="mt-3">
             <a
               className="underline"
               target="_blank"
