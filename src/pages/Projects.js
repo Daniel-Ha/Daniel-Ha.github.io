@@ -120,19 +120,31 @@ export default function Projecs() {
           style={{ marginLeft: margin, marginRight: margin }}
         >
           <div className="overflow-y-scroll flex flex-col h-full px-10 py-8">
-            <h1 className="mb-4 font-bold text-lg">Doon Chatbot:</h1>
+            <h1 className="mb-4 font-bold text-lg">Doon:</h1>
             <p className="mb-3">
-              Doon Chatbot is accessed through Telegram and allows its users
-              to create sophisticated notifications which trigger based on
+              Doon is a chatbot accessible through Telegram. It allows its users
+              to set up sophisticated notifications which trigger based on
               Blockchain activity. It was built in{" "}
               <span className="font-bold">Python</span> and utilitzed a{" "}
               <span className="font-bold">MySQL</span> database.
             </p>
             <p className="mb-3">
-              Doon was built in a team of 4 for a 6-week apprenticeship called
-              BCamp. Since the apprenticeship was sponsored by{" "}
+              Doon was built in a team of 4 for a 6-week apprenticeship called {" "}
               <a
-                className="font-bold"
+                className="underline font-bold"
+                target="_blank"
+                href="https://bcamp.dev/"
+                rel="noopener noreferrer"
+              >
+                BCamp
+              </a>
+              . 
+              <br/>
+              </p>
+            <p>
+              Since the apprenticeship was sponsored by{" "}
+              <a
+                className="underline font-bold"
                 target="_blank"
                 href="https://usemoon.ai/"
                 rel="noopener noreferrer"
@@ -141,9 +153,10 @@ export default function Projecs() {
                 Moon Wallet
               </a>
               , we also worked with Moon's developing codebase to build a UI for
-              Moon Wallet in the form of a DApp (decentralized application).
+              Moon Wallet in the form of a <span className="font-bold">DApp</span> (decentralized application) which was used to showcase our product
+              and allow users to pay for Doon's services using testnet Ethereum.
             </p>
-            <p>
+            <p className="mt-3">
               <a
                 className="underline"
                 target="_blank"
@@ -155,15 +168,15 @@ export default function Projecs() {
               </a>
             </p>
             <p className="mt-3">
-            <a
-              className="underline"
-              target="_blank"
-              href="https://github.com/0xBcamp/Kyle-janus-dragon"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Check out our codebase here!
-            </a>
+              <a
+                className="underline"
+                target="_blank"
+                href="https://github.com/0xBcamp/Kyle-janus-dragon"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Check out our codebase here!
+              </a>
             </p>
           </div>
         </div>
@@ -173,9 +186,8 @@ export default function Projecs() {
 
       {/*Copyright information*/}
       <footer className="mt-12 text-black dark:text-white text-xs flex justify-center">
-            © 2023 Daniel Ha created using React.js and Tailwind.css
+        © 2023 Daniel Ha created using React.js and Tailwind.css
       </footer>
     </div>
-
   );
 }
