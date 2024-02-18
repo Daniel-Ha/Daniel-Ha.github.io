@@ -68,18 +68,72 @@ export default function Projecs() {
           className="mx-auto flex-shrink-0 w-11/12 sm:w-bigger h-96 overflow-hidden rounded-lg  bg-white hover:shadow-xl transition-shadow duration-500 ease-in-out card"
           style={{ marginLeft: margin, marginRight: margin }}
         >
-          <div className="flex flex-col justify-center h-full px-10 py-8">
-            <h1 className="mb-4 font-bold text-lg">This website:</h1>
+          <div className="overflow-y-scroll flex flex-col h-full px-10 py-8">
+            <h1 className="mb-4 font-bold text-lg"> Doon Chatbot:</h1>
             <p className="mb-3">
-              This is my second iteration of a personal website created using{" "}
-              <span className="font-bold">React.js</span>.
+              Doon is a chatbot accessible through Telegram. It allows its users
+              to set up sophisticated notifications which trigger based on
+              Blockchain activity. It was built in{" "}
+              <span className="font-bold">Python</span> and utilitzed a{" "}
+              <span className="font-bold">MySQL</span> database.
             </p>
             <p className="mb-3">
-              In its first version, my website was largely styled using{" "}
-              <span className="font-bold">Bootstrap</span>. This time, at the
-              suggestion of a trusted peer, I decided to use{" "}
-              <span className="font-bold">Tailwind.css</span> (I am forever
-              converted).
+              Doon was built in a team of 4 for a 6-week apprenticeship called {" "}
+              <a
+                className="underline font-bold"
+                target="_blank"
+                href="https://bcamp.dev/"
+                rel="noopener noreferrer"
+              >
+                BCamp
+              </a>
+              .
+              <br />
+            </p>
+            <p>
+              Since the apprenticeship was sponsored by{" "}
+              <a
+                className="underline font-bold"
+                target="_blank"
+                href="https://usemoon.ai/"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Moon Wallet
+              </a>
+              , we also worked with Moon's developing codebase to build a UI for
+              Moon Wallet in the form of a{" "}
+              <span className="font-bold">DApp</span> (decentralized
+              application) which was used to showcase our product and allow
+              users to pay for Doon's services using testnet Ethereum.
+            </p>
+            <p className="mt-3">
+              In this project, I designed the chatbot's database and backend
+              architecture, worked on the chatbot code, and created the Moon
+              Wallet UI for our website which involved communication with a
+              professional working on the codebase.
+            </p>
+            <p className="mt-3">
+              <a
+                className="underline"
+                target="_blank"
+                href="https://youtu.be/MDUJ4z0LjP4"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Check out a video demo here!
+              </a>
+            </p>
+            <p className="mt-3">
+              <a
+                className="underline"
+                target="_blank"
+                href="https://github.com/0xBcamp/Kyle-janus-dragon"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Check out our codebase here!
+              </a>
             </p>
           </div>
         </div>
@@ -113,70 +167,23 @@ export default function Projecs() {
             </a>
           </div>
         </div>
-
         {/*Card 4*/}
         <div
           className="mx-auto flex-shrink-0 w-11/12 sm:w-bigger h-96 overflow-hidden rounded-lg  bg-white hover:shadow-xl transition-shadow duration-500 ease-in-out card"
           style={{ marginLeft: margin, marginRight: margin }}
         >
-          <div className="overflow-y-scroll flex flex-col h-full px-10 py-8">
-            <h1 className="mb-4 font-bold text-lg">Doon:</h1>
+          <div className="flex flex-col justify-center h-full px-10 py-8">
+            <h1 className="mb-4 font-bold text-lg">This website:</h1>
             <p className="mb-3">
-              Doon is a chatbot accessible through Telegram. It allows its users
-              to set up sophisticated notifications which trigger based on
-              Blockchain activity. It was built in{" "}
-              <span className="font-bold">Python</span> and utilitzed a{" "}
-              <span className="font-bold">MySQL</span> database.
+              This is my second iteration of a personal website created using{" "}
+              <span className="font-bold">React.js</span>.
             </p>
             <p className="mb-3">
-              Doon was built in a team of 4 for a 6-week apprenticeship called {" "}
-              <a
-                className="underline font-bold"
-                target="_blank"
-                href="https://bcamp.dev/"
-                rel="noopener noreferrer"
-              >
-                BCamp
-              </a>
-              . 
-              <br/>
-              </p>
-            <p>
-              Since the apprenticeship was sponsored by{" "}
-              <a
-                className="underline font-bold"
-                target="_blank"
-                href="https://usemoon.ai/"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Moon Wallet
-              </a>
-              , we also worked with Moon's developing codebase to build a UI for
-              Moon Wallet in the form of a <span className="font-bold">DApp</span> (decentralized application) which was used to showcase our product
-              and allow users to pay for Doon's services using testnet Ethereum.
-            </p>
-            <p className="mt-3">
-              <a
-                className="underline"
-                target="_blank"
-                href="https://youtu.be/MDUJ4z0LjP4"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Check out a video demo here!
-              </a>
-            </p>
-            <p className="mt-3">
-              <a
-                className="underline"
-                target="_blank"
-                href="https://github.com/0xBcamp/Kyle-janus-dragon"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Check out our codebase here!
-              </a>
+              In its first version, my website was largely styled using{" "}
+              <span className="font-bold">Bootstrap</span>. This time, at the
+              suggestion of a trusted peer, I decided to use{" "}
+              <span className="font-bold">Tailwind.css</span> (I am forever
+              converted).
             </p>
           </div>
         </div>
