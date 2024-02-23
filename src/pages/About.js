@@ -1,5 +1,4 @@
 //ABOUT PAGE
-import Copyright from "../components/Copyright";
 
 export default function About() {
     return (
@@ -23,10 +22,10 @@ export default function About() {
                     I am a prospective software engineer based out of Arroyo Grande, California. I am currently working on software projects, learning various software skills from online resources, and searching for jobs and other opporunities!
                 </p>
                 <p className="text-black dark:text-white mb-5">
-                    Though I have a variety of interests when it comes to computer science, these days, I am most interested in technologies related to fintech. In particular, I have been focusing my efforts on learning about and practicing with quantitative modelling and blockchain technology.
+                    Though I have a variety of interests when it comes to computer science, I am most interested in data science and artifical intelligence.
                 </p>
                 <p className="text-black dark:text-white mb-5">
-                    In my freetime, I enjoy playing tennis, going to the gym, and thinking about ideas for music and fictional literature.
+                    In my freetime, I enjoy playing tennis, going to the gym, and playing Super Smash Bros Ultimate!
                 </p>
                 <p className="text-black dark:text-white mb-5">
                     Please feel free to explore my website for a more comprehensive look at my coding experience. I welcome opportunities to collaborate and contribute to computer science related projects!
