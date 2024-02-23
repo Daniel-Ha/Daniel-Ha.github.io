@@ -74,7 +74,7 @@ export default function Projecs() {
               Doon is a chatbot accessible through Telegram. It allows its users
               to set up sophisticated notifications which trigger based on
               Blockchain activity. It was built in{" "}
-              <span className="font-bold">Python</span> and utilitzed a{" "}
+              <span className="font-bold">Python</span> and utilitzes a{" "}
               <span className="font-bold">MySQL</span> database.
             </p>
             <p className="mb-3">
@@ -105,13 +105,13 @@ export default function Projecs() {
               Moon Wallet in the form of a{" "}
               <span className="font-bold">DApp</span> (decentralized
               application) which was used to showcase our product and allow
-              users to pay for Doon's services using testnet Ethereum.
+              users to pay for Doon's services using Ethereum.
             </p>
             <p className="mt-3">
               In this project, I designed the chatbot's database and backend
-              architecture, worked on the chatbot code, and created the Moon
+              architecture, worked on the chatbot code, created the Moon
               Wallet UI for our website which involved communication with a
-              professional working on the codebase.
+              professional working on the codebase, and was the Scrum master for our team.
             </p>
             <p className="mt-3">
               <a
